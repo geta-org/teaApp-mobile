@@ -2,7 +2,7 @@
   "expo": {
     "name": "native-template-styled",
     "slug": "native-template-styled",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -13,7 +13,6 @@
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/db4ae515-b0a1-44e3-a5f6-4d9df3531857"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -29,14 +28,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "db4ae515-b0a1-44e3-a5f6-4d9df3531857"
-      }
-    },
-    "runtimeVersion": {
-      "policy": "sdkVersion"
     }
   }
 }
