@@ -13,7 +13,7 @@ export function Start04() {
   const navigation = useNavigation()
 
   const next = () => {
-    navigation.navigate('home')
+    navigation.navigate('mainMenu')
   }
 
   return (
