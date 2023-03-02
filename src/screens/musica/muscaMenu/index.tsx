@@ -1,3 +1,4 @@
+import { NavigaterMenu } from '../../../components/MenuDeNav'
 import { TeaIcon } from '../../../components/TEAICON'
 import { Title } from '../../start/Menu/styles'
 import { HomeContainer, MusicCard, MusicCardConteiner } from './styles'
@@ -28,6 +29,8 @@ export function MusicaMenu() {
         <MusicCard>
           <Title>batata</Title>
         </MusicCard>
+
+        <NavigaterMenu />
       </MusicCardConteiner>
     </HomeContainer>
   )
