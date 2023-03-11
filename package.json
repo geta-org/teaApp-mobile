@@ -1,11 +1,10 @@
 {
   "name": "native_template_styled",
   "version": "0.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "prepare": "husky install && chmod ug+x .husky/* && chmod ug+x .git/hooks/* && npm install --global eslint",
     "pre-commit": "lint-staged",
     "commit": "git-cz",
@@ -17,7 +16,7 @@
     "@react-navigation/native": "^6.0.16",
     "@react-navigation/native-stack": "^6.9.4",
     "axios": "^1.2.0",
-    "expo": "~47.0.8",
+    "expo": "~47.0.12",
     "expo-font": "~11.0.1",
     "expo-status-bar": "~1.4.2",
     "expo-updates": "~0.15.6",
@@ -29,7 +28,8 @@
     "react-native-screens": "~3.18.0",
     "react-native-svg": "13.4.0",
     "react-native-svg-transformer": "^1.0.0",
-    "styled-components": "^5.3.6"
+    "styled-components": "^5.3.6",
+    "expo-splash-screen": "~0.17.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
